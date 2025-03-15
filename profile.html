@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Profile</h1>
+        <a href="index.html">Home</a>
+        <button id="logout-btn">Logout</button>
+    </header>
+
+    <main>
+        <section id="profile-info">
+            <img id="profile-pic" src="default-avatar.png" alt="Profile Picture">
+            <h2 id="username">User Name</h2>
+            <p id="email">user@example.com</p>
+        </section>
+
+        <section id="user-posts">
+            <h3>My Posts</h3>
+            <div id="posts-list">
+                <!-- User's posts will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
